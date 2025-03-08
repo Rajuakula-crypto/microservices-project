@@ -81,7 +81,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: shaikmustafa/checkoutservice:latest
+          image: shaikmustafa/dm:latest
           ports:
           - containerPort: 5050
           readinessProbe:
